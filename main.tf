@@ -2,7 +2,6 @@ provider "aws" {
   region = "us-east-1"
 }
 
-
 resource "aws_instance" "RHEL_1" {
     instance_type = "t2.micro"
     ami = "ami-0fe630eb857a6ec83"
